@@ -20,7 +20,7 @@ Here are what the tables look like when populated:
 ![image](https://user-images.githubusercontent.com/40349656/147948751-12c1d8f2-e07b-4039-8691-bbb43e808624.png)
 ![image](https://user-images.githubusercontent.com/40349656/147948824-c09d5d2f-b575-44e4-98a0-db5d55630ef2.png)
 
-This is the query that is used to extract out the data from mysql. Results were converted to csv files through MySQL Workbench.
+This is the query that is used to extract out the data from mysql. Results were converted to csv files through MySQL Workbench. This is for the poll with id 1. Then I repeated the process for the other 3 polls. 
 ```
 SELECT DISTINCT z.user_id, a.vote_id as "First", b.vote_id as "Second", c.vote_id as "Third" FROM votes z, votes a, votes b, votes c where z.poll_id=1 and a.poll_id=1 and b.poll_id=1 and c.poll_id=1 and z.user_id=a.user_id and z.user_id=b.user_id and z.user_id=c.user_id and a.order=0 and b.order=1 and c.order=2;
 ```
