@@ -172,3 +172,11 @@ OEJN          113.56  Elected
 OIIE           89.50  Rejected
 Blank votes    47.30  Rejected
 ```
+Number of votes casted:
+```
+VATEUD Large: 749
+VATEUD Medium: 731
+VATEUD Small: 727
+VATMENA: 743
+```
+```
