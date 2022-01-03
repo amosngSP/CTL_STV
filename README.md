@@ -1,6 +1,6 @@
 # CTL_STV
 VATSIM Cross The Land - Single Transferable Vote system.
-By Amos Ng - 1357854 for the VATSIM Cross The Land system.
+By Amos Ng - 1357854 for VATSIM Cross The Land
 
 The web interface was based on the Buy me a Cookie system:
 https://github.com/daveroverts/bmac
