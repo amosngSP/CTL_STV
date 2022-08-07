@@ -1,3 +1,4 @@
+```
 ==========================DEPARTURE LARGE==========================
 ROUND 1
 Candidate      Votes  Status
@@ -119,5 +120,5 @@ OTHH          168.60  Elected
 OOMS          204.01  Elected
 OERK          172.13  Elected
 OIIE          129.66  Rejected
-
+```
 **Due to staffing requirements, OOMS will be swapped for OIIE
