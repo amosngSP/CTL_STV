@@ -52,7 +52,7 @@ for file in files:
 
 result_mena = pyrankvote.single_transferable_vote(airports_mena, ballots[0], number_of_seats=5)
 result_eud_a = pyrankvote.single_transferable_vote(airports_eu_a, ballots[1], number_of_seats=2)
-result_eud_b = pyrankvote.single_transferable_vote(airports_eu_b, ballots[2], number_of_seats=3)
+result_eud_b = pyrankvote.single_transferable_vote(airports_eu_b, ballots[2], number_of_seats=2)
 result_eud_c = pyrankvote.single_transferable_vote(airports_eu_c, ballots[3], number_of_seats=2)
 
 print("==========================EUD CAT A==========================")
